@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.BottomNavigationButton?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="page" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.makery.address.view.addAnnancesController">
+   <children>
+      <AnchorPane fx:id="header" layoutX="14.0" layoutY="-124.0" prefHeight="200.0" prefWidth="672.0" />
+      <Label layoutX="257.0" layoutY="101.0" prefHeight="30.0" prefWidth="205.0" text="Add an annancement">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="152.0" layoutY="167.0" text="Train Name" textFill="#2c5772">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="152.0" layoutY="201.0" text="Train Number" textFill="#2c5772">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="153.0" layoutY="233.0" prefHeight="17.0" prefWidth="55.0" text="From" textFill="#2c5772">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="153.0" layoutY="265.0" text="To" textFill="#2c5772">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="156.0" layoutY="353.0" text="the cause of the delay" textFill="#2c5772">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="Trainname" layoutX="394.0" layoutY="169.0" text="Label" />
+      <Label fx:id="Trainnbr" layoutX="394.0" layoutY="203.0" text="Label" />
+      <Label fx:id="from" layoutX="394.0" layoutY="235.0" text="Label" />
+      <Label fx:id="to" layoutX="394.0" layoutY="267.0" text="Label" />
+      <ChoiceBox fx:id="cause" layoutX="325.0" layoutY="351.0" prefHeight="25.0" prefWidth="194.0" />
+      <BottomNavigationButton fx:id="btn" layoutX="565.0" layoutY="397.0" prefHeight="36.0" prefWidth="92.0" text="Add" />
+      <BottomNavigationButton fx:id="btn" layoutX="416.0" layoutY="397.0" onAction="#cancel" prefHeight="36.0" prefWidth="92.0" text="Cancel" />
+      <Label layoutX="156.0" layoutY="293.0" text="Hstart" textFill="#2c5777">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="hdepart" layoutX="394.0" layoutY="295.0" text="Label" />
+      <Label layoutX="156.0" layoutY="323.0" text="Hend" textFill="#2c5777">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="harrivee" layoutX="394.0" layoutY="325.0" text="Label" />
+   </children>
+</AnchorPane>

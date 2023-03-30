@@ -1,0 +1,16 @@
+#back{
+	-fx-background-color:white ;
+	}
+
+#style{
+	-fx-background-color:#9DB6CF;
+	-fx-background-radius:20;
+	-fx-rotate:0;
+	}
+#menubutton{
+	-fx-background-color:white;
+}
+#nextpagebutton{
+	-fx-background-color:#9DB6CF;
+	-fx-background-radius:29;
+}

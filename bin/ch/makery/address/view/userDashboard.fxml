@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane fx:id="borderpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="491.0" prefWidth="1065.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.makery.address.view.MenupageController">
+   <left>
+      <VBox prefHeight="491.0" prefWidth="339.0" style="-fx-background-color: #9DB6CF;" BorderPane.alignment="CENTER">
+         <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="73.0" prefWidth="410.0" style="-fx-background-color: #7a9cbf;">
+               <children>
+                  <Button mnemonicParsing="false" prefHeight="122.0" prefWidth="20.0" style="-fx-background-color: #6c8bad; -fx-text-fill: white;">
+                     <graphic>
+                        <ImageView fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../images/dashboard.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Button>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: andalus; -fx-font-size: 22px; -fx-fill: white;" text="Dashboard" wrappingWidth="182.5595703125">
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </Text>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="10.0" top="20.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="74.0" prefWidth="213.0" style="-fx-background-color: #7a9cbf;">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#horairesPage" prefHeight="99.0" prefWidth="20.0" style="-fx-background-color: #6c8bad; -fx-text-fill: white;">
+                     <graphic>
+                        <ImageView fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../images/deadline.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Button>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: andalus; -fx-font-size: 22px; -fx-fill: white;" text="Horaire" wrappingWidth="182.5595703125">
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </Text>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="10.0" top="15.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="74.0" prefWidth="213.0" style="-fx-background-color: #7a9cbf;">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#Recherchepage" prefHeight="77.0" prefWidth="20.0" style="-fx-background-color: #6c8bad; -fx-text-fill: white;">
+                     <graphic>
+                        <ImageView fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../images/reserve.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Button>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: andalus; -fx-font-size: 22px; -fx-fill: white;" text="Reservation" wrappingWidth="182.5595703125">
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </Text>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="10.0" top="15.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="74.0" prefWidth="213.0" style="-fx-background-color: #7a9cbf;">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#LogingPage" prefHeight="77.0" prefWidth="20.0" style="-fx-background-color: #6c8bad; -fx-text-fill: white;">
+                     <graphic>
+                        <ImageView fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../images/login.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Button>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: andalus; -fx-font-size: 22px; -fx-fill: white;" text="Login" wrappingWidth="182.5595703125">
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </Text>
+               </children>
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="74.0" prefWidth="213.0" style="-fx-background-color: #7a9cbf;">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#AnnancePages" prefHeight="99.0" prefWidth="20.0" style="-fx-background-color: #6c8bad; -fx-text-fill: white;">
+                     <graphic>
+                        <ImageView fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../images/annonce.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Button>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: andalus; -fx-font-size: 22px; -fx-fill: white;" text="Annonce" wrappingWidth="182.5595703125">
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </Text>
+               </children>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="88.0" prefWidth="339.0" style="-fx-background-color: #7a9cbf;">
+               <VBox.margin>
+                  <Insets top="30.0" />
+               </VBox.margin>
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #6c8bad; -fx-font-family: andalus; -fx-font-size: 25px; -fx-fill: white;" text="Contact">
+                     <HBox.margin>
+                        <Insets bottom="40.0" top="-10.0" />
+                     </HBox.margin>
+                  </Text>
+                  <HBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="54.0" prefWidth="30.0" scaleX="3.0" scaleY="0.5">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="-16.0" top="30.0" />
+                     </HBox.margin>
+                     <children>
+                        <ImageView fitWidth="10.0" pickOnBounds="true" preserveRatio="true" scaleY="3.0" x="10.0" y="10.0">
+                           <image>
+                              <Image url="@../../../../../images/phone-call.png" />
+                           </image>
+                           <viewport>
+                              <Rectangle2D />
+                           </viewport>
+                           <HBox.margin>
+                              <Insets top="19.0" />
+                           </HBox.margin>
+                           <effect>
+                              <Bloom />
+                           </effect>
+                        </ImageView>
+                        <Text scaleY="3.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 7;" text="056387693" wrappingWidth="51.84895706176758">
+                           <HBox.margin>
+                              <Insets left="2.0" top="22.0" />
+                           </HBox.margin>
+                        </Text>
+                     </children>
+                  </HBox>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: andalus; -fx-font-size: 25; -fx-fill: WHITE;" text="US" wrappingWidth="33.125">
+                     <HBox.margin>
+                        <Insets bottom="30.0" left="-25.0" right="3.0" top="-15.0" />
+                     </HBox.margin>
+                  </Text>
+                  <HBox layoutX="10.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="30.0" prefWidth="100.0" scaleY="0.5">
+                     <children>
+                        <ImageView fitWidth="20.0" layoutX="15.0" pickOnBounds="true" preserveRatio="true" scaleX="1.5" scaleY="2.0" x="14.0" y="18.0">
+                           <image>
+                              <Image url="@../../../../../images/email.png" />
+                           </image>
+                           <viewport>
+                              <Rectangle2D />
+                           </viewport>
+                           <HBox.margin>
+                              <Insets left="10.0" right="18.0" top="21.0" />
+                           </HBox.margin>
+                           <effect>
+                              <Bloom />
+                           </effect>
+                        </ImageView>
+                        <Text scaleY="2.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: andalus; -fx-font-size: 18;" text="TRteam@gmail.com">
+                           <HBox.margin>
+                              <Insets left="-12.0" top="20.0" />
+                           </HBox.margin></Text>
+                     </children>
+                     <HBox.margin>
+                        <Insets left="5.0" top="24.0" />
+                     </HBox.margin>
+                  </HBox>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </left>
+   <center>
+      <VBox prefHeight="492.0" prefWidth="468.0" style="-fx-background-color: white;" BorderPane.alignment="CENTER">
+         <children>
+            <HBox>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <children>
+                  <ImageView fitHeight="153.0" fitWidth="323.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../images/logo.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="250.0" top="18.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <VBox alignment="CENTER">
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </VBox>
+               </children>
+            </HBox>
+            <VBox VBox.vgrow="ALWAYS">
+               <children>
+                  <HBox alignment="CENTER">
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                     <children>
+                        <Text fill="#13414d" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: Quicksan; -fx-font-weight: bold; -fx-fill: black; -fx-font-size: 20;" text="Offers &amp; New help sections adapted to your needs" textAlignment="JUSTIFY">
+                           <HBox.margin>
+                              <Insets left="-50.0" />
+                           </HBox.margin>
+                        </Text>
+                     </children>
+                  </HBox>
+                  <HBox>
+                     <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </padding>
+                     <children>
+                        <VBox alignment="CENTER" style="-fx-background-color: #e1e6eb; -fx-background-radius: 20;">
+                           <padding>
+                              <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                           </padding>
+                           <children>
+                              <HBox alignment="CENTER">
+                                 <children>
+                                    <VBox prefWidth="0.0">
+                                       <HBox.margin>
+                                          <Insets bottom="60.0" top="10.0" />
+                                       </HBox.margin>
+                                       <padding>
+                                          <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                       </padding>
+                                       <children>
+                                          <ImageView fitHeight="50.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../../../images/casque.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </HBox>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold;" text="Book an assistance service" wrappingWidth="187.48193359375">
+                                 <VBox.margin>
+                                    <Insets top="-60.0" />
+                                 </VBox.margin>
+                              </Text>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text=" All the assistance services" wrappingWidth="194.48193359375">
+                                 <VBox.margin>
+                                    <Insets top="7.0" />
+                                 </VBox.margin>
+                              </Text>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="travelers offered by the " textAlignment="CENTER" wrappingWidth="197.48193359375">
+                                 <VBox.margin>
+                                    <Insets left="10.0" />
+                                 </VBox.margin>
+                              </Text>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="TRteam partners with " textAlignment="CENTER" wrappingWidth="178.48193359375">
+                                 <VBox.margin>
+                                    <Insets />
+                                 </VBox.margin>
+                              </Text>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="quick access" textAlignment="CENTER" wrappingWidth="178.48193359375" />
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER" style="-fx-background-color: #e1e6eb; -fx-background-radius: 20;">
+                           <padding>
+                              <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                           </padding>
+                           <children>
+                              <HBox alignment="CENTER">
+                                 <children>
+                                    <VBox prefWidth="0.0">
+                                       <HBox.margin>
+                                          <Insets bottom="60.0" top="10.0" />
+                                       </HBox.margin>
+                                       <padding>
+                                          <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                       </padding>
+                                       <children>
+                                          <ImageView fitHeight="50.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../../../images/group%20(1).png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </HBox>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="You are a guide or an " textAlignment="CENTER" wrappingWidth="187.48193359375">
+                                 <VBox.margin>
+                                    <Insets top="-60.0" />
+                                 </VBox.margin>
+                              </Text>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="accompanying you have " wrappingWidth="168.48193359375" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="a social tariff,depending" wrappingWidth="168.48193359375" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text=" on the degree and type" wrappingWidth="168.48193359375" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text=" of disability" textAlignment="CENTER" wrappingWidth="168.48193359375" />
+                           </children>
+                           <HBox.margin>
+                              <Insets left="10.0" />
+                           </HBox.margin>
+                        </VBox>
+                        <VBox alignment="CENTER" style="-fx-background-color: #e1e6eb; -fx-background-radius: 20;">
+                           <padding>
+                              <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                           </padding>
+                           <children>
+                              <HBox alignment="CENTER">
+                                 <children>
+                                    <VBox prefWidth="0.0">
+                                       <HBox.margin>
+                                          <Insets bottom="60.0" top="10.0" />
+                                       </HBox.margin>
+                                       <padding>
+                                          <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                       </padding>
+                                       <children>
+                                          <ImageView fitHeight="50.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../../../images/disabled.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </HBox>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold;" text="You have a disability" textAlignment="CENTER" wrappingWidth="168.48193359375">
+                                 <VBox.margin>
+                                    <Insets top="-60.0" />
+                                 </VBox.margin>
+                              </Text>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Discover the specific services" wrappingWidth="192.48193359375">
+                                 <VBox.margin>
+                                    <Insets top="5.0" />
+                                 </VBox.margin>
+                              </Text>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="for your particular disability," wrappingWidth="187.48193359375" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="whether you are traveling" wrappingWidth="183.48193359375" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="in a wheelchair or other" wrappingWidth="168.48193359375" />
+                           </children>
+                           <HBox.margin>
+                              <Insets left="10.0" />
+                           </HBox.margin>
+                        </VBox>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+   </center>
+   <effect>
+      <DropShadow />
+   </effect>
+</BorderPane>

@@ -1,0 +1,50 @@
+#Menupagebgrnd{
+	-fx-background-color:white ;
+	}
+#baremenupage{
+	-fx-background-color:#9DB6CF;
+	-fx-background-radius:20;
+}
+#btnrechercher,#btnreservation,#btnhoraires,#btnannances{
+	-fx-background-color:#9DB6CF;
+	-fx-cursor:hand ;
+}
+#btnrechercher:hover{
+	-fx-background-color:#8792AE;
+}
+#btnreservation:hover{
+	-fx-background-color:#8792AE;
+}
+#btnhoraires:hover{
+	-fx-background-color:#8792AE;
+}
+#btnannances:hover{
+	-fx-background-color:#8792AE;
+}
+#iconrecherce,#iconhoraire,#iconannaces,#icontiquet{
+	-fx-cursor:hand;
+}
+#login{
+	-fx-background-radius:30;
+	-fx-cursor:hand ;
+}
+#login:hover{
+	-fx-background-color:black;
+	-fx-text-fill:white;
+}
+#iconrecherce:hovre{
+	-fx-background-color:#8792AE;
+}
+#iconhoraire:hover{
+	-fx-background-color:#8792AE;
+}
+#iconannaces:hover{
+	-fx-background-color:#8792AE;
+}
+#icontiquet:hover{
+	-fx-background-color:#8792AE;
+}
+
+#login{
+	-fx-background-color:white;
+}

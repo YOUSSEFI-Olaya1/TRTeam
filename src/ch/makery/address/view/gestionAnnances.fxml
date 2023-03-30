@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="page" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.makery.address.view.AnnancesManagementController">
+   <children>
+      <AnchorPane fx:id="header" layoutX="14.0" layoutY="-110.0" prefHeight="200.0" prefWidth="673.0">
+         <children>
+            <Button fx:id="back" layoutX="14.0" layoutY="144.0" mnemonicParsing="false" onAction="#back" prefHeight="25.0" prefWidth="50.0" text="Back" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="184.0" layoutY="101.0" text="Daley Annances Management" textFill="#b90c0c">
+         <font>
+            <Font name="Book Antiqua" size="25.0" />
+         </font>
+      </Label>
+      <TableView fx:id="table" layoutX="5.0" layoutY="150.0" prefHeight="258.0" prefWidth="689.0">
+        <columns>
+          <TableColumn fx:id="trainname" prefWidth="75.0" text="Train Name" />
+          <TableColumn fx:id="trainnbr" prefWidth="75.0" text="Train N°" />
+            <TableColumn fx:id="from" prefWidth="63.0" text="From" />
+            <TableColumn fx:id="to" prefWidth="71.0" text="To" />
+            <TableColumn fx:id="departh" prefWidth="93.0" text="Departure H" />
+            <TableColumn fx:id="arrivalh" prefWidth="73.0" text="Arrival time" />
+            <TableColumn fx:id="reason" prefWidth="149.0" text="The reason" />
+            <TableColumn fx:id="duration" prefWidth="89.0" text="The duration" />
+        </columns>
+      </TableView>
+      <Button fx:id="btn" layoutX="303.0" layoutY="454.0" mnemonicParsing="false" onAction="#delete" prefHeight="25.0" prefWidth="93.0" text="Delete" />
+   </children>
+</AnchorPane>

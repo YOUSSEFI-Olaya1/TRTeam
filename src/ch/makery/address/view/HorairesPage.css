@@ -1,0 +1,12 @@
+#header{
+	-fx-background-color:#9DB6CF;
+	-fx-background-radius:20;
+}
+#page{
+	-fx-background-color:white;
+}
+#btnretourner{
+	-fx-background-color:white;
+	-fx-background-radius:20;
+	-fx-cursor:hand ;
+}

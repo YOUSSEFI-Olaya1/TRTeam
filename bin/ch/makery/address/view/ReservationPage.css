@@ -1,0 +1,16 @@
+#background{
+	-fx-background-color:#9DB6CF;
+}
+#inter{
+	-fx-background-color:white;
+}
+#btncancel{
+	-fx-background-color:black;
+	-fx-text-fill:white;
+	-fx-cursor:hand ;
+}
+#btnBook{
+	-fx-background-color:black;
+	-fx-text-fill:white;
+	-fx-cursor:hand ;
+}

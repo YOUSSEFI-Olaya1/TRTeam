@@ -1,0 +1,19 @@
+#header{
+	-fx-background-color:#9DB6CF;
+	-fx-background-radius:20;
+}
+#page{
+	-fx-background-color:white;
+}
+#btn{
+	-fx-background-color:#9DB6CF;
+	-fx-background-radius:20;
+	-fx-text-fill:white;
+	-fx-cursor:hand ;
+}
+#btn:hover{
+	-fx-background-color:black;
+	-fx-background-radius:20;
+	-fx-text-fill:white;
+	-fx-cursor:hand ;
+}

@@ -1,0 +1,26 @@
+#page{
+	-fx-background-color:white ;
+	}
+#header{
+	-fx-background-color:#9DB6CF;
+	-fx-background-radius:20;
+}
+#loginbutton{
+	-fx-background-color:#9DB6CF;
+}
+#btnretourner{
+	-fx-background-color:white;
+	-fx-background-radius:20;
+	-fx-cursor:hand ;
+}
+#inscrire{
+	-fx-background-color:#9DB6CF;
+	-fx-background-radius:20;
+	-fx-cursor:hand ;
+}
+#inscrire:hover{
+	-fx-background-color:black;
+	-fx-background-radius:20;
+	-fx-cursor:hand ;
+	-fx-text-fill:white;
+}

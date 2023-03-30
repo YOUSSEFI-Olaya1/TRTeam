@@ -1,0 +1,32 @@
+#header{
+	-fx-background-color:#9DB6CF;
+	-fx-background-radius:20;
+}
+#page{
+	-fx-background-color:white;
+}
+#btndeconnection{
+	-fx-background-color:white;
+	-fx-background-radius:20;
+	-fx-cursor:hand ;
+}
+#btndeconnection:hover{
+	-fx-background-color:black;
+	-fx-text-fill:white ;
+	-fx-background-radius:20;
+	-fx-cursor:hand ;
+}
+#btnreservation,#btnAnnances,#btnmodif{
+	-fx-background-color:#9DB6CF;
+	-fx-background-radius:70;
+	-fx-cursor:hand ;
+}
+#btnreservation:hover{
+	-fx-background-color:#8792AE;
+}
+#btnAnnances:hover{
+	-fx-background-color:#8792AE;
+}
+#btnmodif:hover{
+	-fx-background-color:#8792AE;
+}
